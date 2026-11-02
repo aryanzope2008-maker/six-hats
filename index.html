@@ -1,0 +1,190 @@
+<!--
+  Name: Aryan Zope
+  PRN: 26070122053
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Six Thinking Hats · AI Learning Assistant in Classrooms</title>
+<meta name="description" content="A Six Thinking Hats case analysis of an AI-based personalized learning assistant proposed for classroom-wide use." />
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="rail" aria-label="Hat sections">
+    <div class="rail-indicator" aria-hidden="true"></div>
+    <ul>
+      <li><a href="#blue-open" data-hat="blue" aria-label="Blue hat — Process"><span class="dot"></span></a></li>
+      <li><a href="#white" data-hat="white" aria-label="White hat — Facts"><span class="dot"></span></a></li>
+      <li><a href="#red" data-hat="red" aria-label="Red hat — Feelings"><span class="dot"></span></a></li>
+      <li><a href="#black" data-hat="black" aria-label="Black hat — Caution"><span class="dot"></span></a></li>
+      <li><a href="#yellow" data-hat="yellow" aria-label="Yellow hat — Benefits"><span class="dot"></span></a></li>
+      <li><a href="#green" data-hat="green" aria-label="Green hat — Alternatives"><span class="dot"></span></a></li>
+      <li><a href="#blue-close" data-hat="blue" aria-label="Blue hat — Decision"><span class="dot"></span></a></li>
+    </ul>
+    <p class="rail-label" id="railLabel">Scroll to begin</p>
+  </nav>
+
+  <header class="hero" id="hero">
+    <canvas id="network" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Critical thinking case analysis</p>
+      <h1>Six Thinking<br>Hats</h1>
+      <p class="hero-sub">A college is weighing whether to adopt an AI-powered learning assistant that tracks progress, personalizes content, and flags students who are falling behind — across every department. This walks through the decision from six angles before one is taken.</p>
+      <a href="#blue-open" class="hero-cta">Start with the Blue Hat ↓</a>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hat-section" id="blue-open" data-hat="blue">
+      <div class="hat-mark" aria-hidden="true"><svg viewBox="0 0 64 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M32 9c-10.2 0-18.5 10.3-18.5 23v3.5h37V32C50.5 19.3 42.2 9 32 9z"/>
+          <rect x="7" y="35.5" width="50" height="7.5" rx="3.75"/>
+        </svg></div>
+      <div class="hat-content">
+        <p class="hat-kicker">Blue hat — managing the thinking</p>
+        <h2>Setting up the case</h2>
+        <p>A tech company has offered the college an AI learning assistant for every department. It would track each student's progress, recommend content suited to their pace, and alert faculty when someone looks at risk of falling behind. The college hasn't decided yet.</p>
+        <p>The Blue Hat doesn't argue for or against the tool — it just sets the order of thinking. Before anyone votes, the case gets looked at as plain fact, as feeling, as risk, as benefit, and as room for a better option. That sequence is what follows.</p>
+      </div>
+    </section>
+
+    <section class="hat-section" id="white" data-hat="white">
+      <div class="hat-mark" aria-hidden="true"><svg viewBox="0 0 64 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M32 9c-10.2 0-18.5 10.3-18.5 23v3.5h37V32C50.5 19.3 42.2 9 32 9z"/>
+          <rect x="7" y="35.5" width="50" height="7.5" rx="3.75"/>
+        </svg></div>
+      <div class="hat-content">
+        <p class="hat-kicker">White hat — facts only</p>
+        <h2>What's actually on the table</h2>
+        <ul class="fact-list">
+          <li>The tool is built and sold by an external company, not developed in-house by the college.</li>
+          <li>It continuously tracks individual student progress across coursework.</li>
+          <li>It suggests personalized content and pacing based on that tracking.</li>
+          <li>It sends alerts to faculty when a student's pattern suggests they're falling behind.</li>
+          <li>Adoption is being considered college-wide, across all departments at once — not as a single-course trial.</li>
+          <li>Students and faculty have already raised concerns about privacy, over-reliance, and bias before any rollout has happened.</li>
+        </ul>
+        <p class="fact-footnote">No contract, pilot data, or bias audit has been mentioned as existing yet — those are gaps, not facts, and get flagged again under the Black Hat.</p>
+      </div>
+    </section>
+
+    <section class="hat-section" id="red" data-hat="red">
+      <div class="hat-mark" aria-hidden="true"><svg viewBox="0 0 64 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M32 9c-10.2 0-18.5 10.3-18.5 23v3.5h37V32C50.5 19.3 42.2 9 32 9z"/>
+          <rect x="7" y="35.5" width="50" height="7.5" rx="3.75"/>
+        </svg></div>
+      <div class="hat-content">
+        <p class="hat-kicker">Red hat — gut reactions</p>
+        <h2>How it feels before it's justified</h2>
+        <div class="quote-pair">
+          <blockquote>
+            <p>Some students like the idea of a system that notices when they're struggling before a professor would. Others feel watched — like every quiz and late submission is quietly building a file on them.</p>
+          </blockquote>
+          <blockquote>
+            <p>Faculty reactions split too. An early warning before midterms sounds useful. But a few worry it edges toward letting software make a judgment about a student that used to be a teacher's call.</p>
+          </blockquote>
+        </div>
+        <p>None of this is reasoned yet — that's the point of the Red Hat. The unease about being "tracked" and the relief of "finally, an early warning" are both real inputs, and both get weighed properly in the hats that follow.</p>
+      </div>
+    </section>
+
+    <section class="hat-section" id="black" data-hat="black">
+      <div class="hat-mark" aria-hidden="true"><svg viewBox="0 0 64 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M32 9c-10.2 0-18.5 10.3-18.5 23v3.5h37V32C50.5 19.3 42.2 9 32 9z"/>
+          <rect x="7" y="35.5" width="50" height="7.5" rx="3.75"/>
+        </svg></div>
+      <div class="hat-content">
+        <p class="hat-kicker">Black hat — caution</p>
+        <h2>Where this goes wrong</h2>
+        <ul class="risk-list">
+          <li>
+            <h3>Data privacy</h3>
+            <p>Progress data is behavioral and academic data about minors or young adults, held by a third-party vendor. Where it's stored, who can see it, and whether it's sold or reused isn't settled by the case as given.</p>
+          </li>
+          <li>
+            <h3>Over-reliance</h3>
+            <p>If faculty start treating an alert as the signal to act rather than one input among many, judgment that used to involve knowing the student gets quietly handed to the software.</p>
+          </li>
+          <li>
+            <h3>Recommendation bias</h3>
+            <p>A model trained on past student data can encode the patterns of whoever it learned from. It can flag or underserve students who don't match that pattern — without anyone intending it to.</p>
+          </li>
+          <li>
+            <h3>Opacity</h3>
+            <p>If the college can't explain why the system flagged a particular student, neither the student nor the professor has real grounds to question or appeal it.</p>
+          </li>
+          <li>
+            <h3>All-at-once rollout</h3>
+            <p>Adopting it across every department simultaneously means any one of the above surfaces at full scale before it's been caught anywhere smaller.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="hat-section" id="yellow" data-hat="yellow">
+      <div class="hat-mark" aria-hidden="true"><svg viewBox="0 0 64 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M32 9c-10.2 0-18.5 10.3-18.5 23v3.5h37V32C50.5 19.3 42.2 9 32 9z"/>
+          <rect x="7" y="35.5" width="50" height="7.5" rx="3.75"/>
+        </svg></div>
+      <div class="hat-content">
+        <p class="hat-kicker">Yellow hat — the upside</p>
+        <h2>What it could actually deliver</h2>
+        <ul class="benefit-list">
+          <li>A struggling student can be flagged weeks before a professor would otherwise notice from grades alone, leaving real time to intervene.</li>
+          <li>Content paced to where a student actually is can hold attention better than a single fixed syllabus speed for everyone.</li>
+          <li>Faculty teaching large sections get a shortlist of who needs attention instead of manually reviewing every student's trend by hand.</li>
+          <li>The same support is available consistently to every student, including the ones who would never think to ask for help themselves.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="hat-section" id="green" data-hat="green">
+      <div class="hat-mark" aria-hidden="true"><svg viewBox="0 0 64 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M32 9c-10.2 0-18.5 10.3-18.5 23v3.5h37V32C50.5 19.3 42.2 9 32 9z"/>
+          <rect x="7" y="35.5" width="50" height="7.5" rx="3.75"/>
+        </svg></div>
+      <div class="hat-content">
+        <p class="hat-kicker">Green hat — other options</p>
+        <h2>A better way to get there</h2>
+        <p>The real choice isn't just "adopt it everywhere" or "reject it outright." A few middle paths:</p>
+        <ul class="idea-list">
+          <li><strong>Pilot one department first.</strong> Run it in a single department for a term, with results reviewed before any wider rollout is even discussed.</li>
+          <li><strong>Make tracking opt-in.</strong> Students choose whether their data feeds the system, with a clear and genuinely easy way to opt back out.</li>
+          <li><strong>Keep a human in the loop.</strong> An alert goes to faculty as a suggestion to check in, never as an automatic action — the professor still decides what happens.</li>
+          <li><strong>Require an independent bias audit</strong> before any college-wide decision, with results shared with the student body, not just the vendor's word for it.</li>
+          <li><strong>Show the reasoning.</strong> If a student is flagged, they can see roughly why — not just that an algorithm decided something about them.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="hat-section hat-section--close" id="blue-close" data-hat="blue">
+      <div class="hat-mark" aria-hidden="true"><svg viewBox="0 0 64 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M32 9c-10.2 0-18.5 10.3-18.5 23v3.5h37V32C50.5 19.3 42.2 9 32 9z"/>
+          <rect x="7" y="35.5" width="50" height="7.5" rx="3.75"/>
+        </svg></div>
+      <div class="hat-content">
+        <p class="hat-kicker">Blue hat — the decision</p>
+        <h2>Where this lands</h2>
+        <p>The facts show a tool with real upside, sitting inside real, unresolved risk. That points away from both extremes — not a full college-wide launch, and not an outright no.</p>
+        <p class="decision">A phased pilot in one department, opt-in data sharing, a human-in-the-loop rule for every alert, and an independent bias audit before any wider rollout is considered.</p>
+        <p>That's a decision the Black Hat's concerns can actually be checked against, instead of one taken on the Yellow Hat's promise alone.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Six Thinking Hats case analysis — Case Scenario 1: AI-Based Personalized Learning Assistant in Classrooms.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

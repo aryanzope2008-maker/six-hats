@@ -1,0 +1,17 @@
+# Name: Aryan Zope
+# PRN: 26070122053
+#
+# Render Blueprint — deploys this as a static site.
+# Render auto-detects this file when you create a new Blueprint from the repo.
+
+services:
+  - type: web
+    name: six-thinking-hats-case-analysis
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: ./
+    pullRequestPreviewsEnabled: false
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
